@@ -1,2 +1,2 @@
-# rjlgulanes.github.io
+# rgulanes.github.io
 Web Resume
