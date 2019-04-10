@@ -1,0 +1,9 @@
+.text-uppercase { text-transform: uppercase; }
+.text-normal { text-transform: none !important; }
+.text-sm { font-size: 11pt; }
+
+.copyright { background-color: #102542 !important; }
+
+.intro .social-icons > li > a {
+    background: #233e63;
+}
