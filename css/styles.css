@@ -213,7 +213,7 @@ b.max-bold{ font-weight: 700; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
-.portfolio-section .p-item{ width: 25%; padding: 0 7.5px 0px; margin-top: 15px; }
+.portfolio-section .p-item{ width: 20%; padding: 0 7.5px 0px; margin-top: 15px; }
 
 .portfolio-section .p-item a{ display: inline-block; position: relative; }
 

@@ -25,7 +25,8 @@
 					duration: 750,
 					easing: 'linear',
 					queue: false
-				}
+				},
+				layoutMode: 'masonry'
 			});
 		 
 			$('.portfolioFilter a').click(function(){
@@ -39,7 +40,8 @@
 						duration: 750,
 						easing: 'linear',
 						queue: false
-					}
+					},
+					layoutMode: 'masonry'
 				 });
 				 return false;
 			}); 
