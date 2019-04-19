@@ -66,3 +66,7 @@ p.progress-title {
 
 .panel-area .panel-title .icon.minus,
 .panel-area .panel-title.active .icon.plus{ display: none; }
+
+.intro-section{
+	padding: 50px 0px 20px 0px;
+}
