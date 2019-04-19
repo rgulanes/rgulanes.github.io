@@ -15,3 +15,54 @@
 ul.list {
 	text-align: justify;
 }
+
+p.progress-title {
+	font-size: 10pt;
+}
+
+/* LINE PROGRESSBAR */
+	
+.line-progress{ 
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.line-progress .progressbar-text{ 
+	position: absolute;
+	bottom: 0; 
+	right: 0;
+	font-size: 1.1em; 
+	font-weight: 500; 
+	color: #777;
+}
+
+.line-progress .progress-title{ 
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	color: #777;
+}
+
+/* ACCORDIANS */
+
+.panel-area .panel-title{ padding: 10px 20px; cursor: pointer; position: relative; color: #fff;
+	border-radius: 3px; background: #FFAD01; color: #fff; }
+
+.panel-area .panel-desc{ max-height: 0; overflow: hidden; opacity: 0;
+	-webkit-transition: all .05s, opacity .25s .1s, -webkit-transform .1s; 
+	transition: all .05s, opacity .25s .1s, transform .1s; 
+	-webkit-transform: scaleY(0); transform: scaleY(0); 
+	-webkit-transform-origin: top; transform-origin: top; }
+
+.panel-area .panel-title .icon{ float: right; font-size: .7em; margin-top: 5px; }
+
+.panel-area .panel-title.active{ background: #28023D; }
+
+.panel-area .panel-title.active + .panel-desc{ opacity: 1; padding: 5px 5px 0; max-height: 300px; 
+	-webkit-transform: scaleY(1); transform: scaleY(1); }
+
+.panel-area .panel-title .icon.plus,
+.panel-area .panel-title.active .icon.minus{ display: block; }
+
+.panel-area .panel-title .icon.minus,
+.panel-area .panel-title.active .icon.plus{ display: none; }

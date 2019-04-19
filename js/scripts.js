@@ -89,7 +89,8 @@ function enableRadialProgress(){
 	
 	$(".radial-progress").each(function(){
 		var $this = $(this),
-			progPercent = $this.data('prog-percent');
+			progPercent = $this.data('prog-percent'),
+			progText = $this.data('prog-text');
 			
 		var bar = new ProgressBar.Circle(this, {
 			color: '#aaa',
@@ -108,10 +109,11 @@ function enableRadialProgress(){
 				circle.path.setAttribute('stroke-width', state.width);
 
 				var value = Math.round(circle.value() * 100);
+				
 				if (value === 0) {
 					circle.setText('');
 				} else {
-					circle.setText(value);
+					circle.setText((typeof progText === 'undefined' ? value : progText));
 				}
 
 			}
@@ -128,7 +130,8 @@ function enableLineProgress(){
 	
 	$(".line-progress").each(function(){
 		var $this = $(this),
-			progPercent = $this.data('prog-percent');
+			progPercent = $this.data('prog-percent'),
+			progText = $this.data('prog-text');
 			
 		var bar = new ProgressBar.Line(this, {
 			strokeWidth: 1,
@@ -146,7 +149,9 @@ function enableLineProgress(){
 			from: {color: '#FFEA82'},
 			to: {color: '#ED6A5A'},
 			step: (state, bar) => {
-				bar.setText(Math.round(bar.value() * 100) + ' %');
+				var val = Math.round(bar.value() * 100) + ' %';
+
+				bar.setText(typeof progText === 'undefined' ? val : progText);
 			}
 		});
 		
