@@ -108,7 +108,7 @@ $(document).ready(function () {
               (course.division ? '<br><small>' + course.division + '</small>' : '' ),
               '</b>',
             '</h5>',
-            '<h6 class="font-lite-black text-uppercase">Issued '+ course.date +'</h6>',
+            '<h6 class="font-lite-black text-uppercase">'+ course.date +'</h6>',
           '</div>'
         ].join('');
 
