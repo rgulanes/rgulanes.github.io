@@ -1,0 +1,115 @@
+$(document).ready(function () {
+	var otherJobs = $('#other-jobs'),
+      itRelatedJobs = $('#itrelated-jobs'),
+      licensesCerts = $('#licenses-certifications'),
+      courseAttended = $('#courses-attended');
+
+  // Work Experience
+  $.get('./json/work-experience.json', function (data) {
+    var itWork = data.itrelated, otherWork = data.otherjob;
+
+    itRelatedJobs.html('');
+    otherJobs.html('');
+    $.each(itWork, function (index, info) {
+      if (info.show) {
+        var duties = '';
+
+        if(info.duties.length) {
+          $.each(info.duties, function (i, duty) {
+            duties += ('<li>' + duty + '</li>');
+          });
+        }
+
+        var html = [
+          '<div class="experience margin-b-50">',
+            '<h4 class="text-uppercase"><b>'+ info.position +'</b></h4>',
+            '<h5 class="font-yellow text-uppercase">',
+              '<b>'+ info.company,
+              (info.division ? '<br><small>' + info.division + '</small>' : '' ),
+              '</b>',
+            '</h5>',
+            '<h6 class="font-lite-black margin-tb-10 text-uppercase">'+ info.duration +'</h6>',
+            (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
+            (info.duties.length ? '<ul class="list margin-b-30 text-sm">' : ''),
+            (info.duties.length ? duties : ''),
+            (info.duties.length ? '</ul>' : ''),
+          '</div>'
+        ].join('');
+
+        itRelatedJobs.append(html);
+      }
+    });
+
+    $.each(otherWork, function (index, info) {
+      if (info.show) {
+        var duties = '';
+
+        if(info.duties.length) {
+          $.each(info.duties, function (i, duty) {
+            duties += ('<li>' + duty + '</li>');
+          });
+        }
+
+        var html = [
+          '<div class="experience margin-b-50">',
+            '<h4 class="text-uppercase"><b>'+ info.position +'</b></h4>',
+            '<h5 class="font-yellow text-uppercase">',
+              '<b>'+ info.company,
+              (info.division ? '<br><small>' + info.division + '</small>' : '' ),
+              '</b>',
+            '</h5>',
+            '<h6 class="font-lite-black margin-tb-10 text-uppercase">'+ info.duration +'</h6>',
+            (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
+            (info.duties.length ? '<ul class="list margin-b-30 text-sm">' : ''),
+            (info.duties.length ? duties : ''),
+            (info.duties.length ? '</ul>' : ''),
+          '</div>'
+        ].join('');
+
+        otherJobs.append(html);
+      }
+    });
+  });
+
+  // Licenses and Certifications
+  $.get('./json/licenses-certifications.json', function (data) {
+    licensesCerts.html('');
+
+    $.each(data, function (index, cert) {
+      if(cert.show) {
+        var html = [
+          '<div class="experience margin-b-50">',
+            '<h4 class="text-uppercase"><b>'+ cert.title +'</b></h4>',
+            '<h5 class="font-yellow text-uppercase"><b>'+ cert.company +'</b></h5>',
+            '<h6 class="font-lite-black text-uppercase">Issued '+ cert.issuance +'</h6>',
+          '</div>'
+        ].join('');
+
+        licensesCerts.append(html);
+      }
+    });
+  });
+
+  // Licenses and Certifications
+  $.get('./json/courses-attended.json', function (data) {
+    courseAttended.html('');
+
+    $.each(data, function (index, course) {
+      if(course.show) {
+        var html = [
+          '<div class="experience margin-b-50">',
+            '<h4 class="text-uppercase"><b>'+ course.title +'</b></h4>',
+            '<h5 class="font-yellow text-uppercase">',
+              '<b>'+ course.company,
+              (course.division ? '<br><small>' + course.division + '</small>' : '' ),
+              '</b>',
+            '</h5>',
+            '<h6 class="font-lite-black text-uppercase">Issued '+ course.date +'</h6>',
+          '</div>'
+        ].join('');
+
+        courseAttended.append(html);
+      }
+    });
+  });
+});

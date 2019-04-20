@@ -1,0 +1,107 @@
+{
+  "itrelated" : [
+  	{
+  		"show" : false,
+      "position" : "Information Systems Analyst II",
+      "company" : "Governance Commission for GOCCs (GCG)",
+      "division" : "Information and Communications Technology Group – Application Management Division",
+      "duration" : "June 2019 - PRESENT",
+      "duties" : []
+  	},
+    {
+      "show" : true,
+      "position" : "Junior Software Engineer",
+      "company" : "Governance Commission for GOCCs (GCG)",
+      "division" : "Information and Communications Technology Group – Application Management Division",
+      "duration" : "July 2017 - PRESENT",
+      "duties" : [
+        "Provide support in the re-development and design of GOCC Monitoring System (GMS) and GOCC Leadership Management System (GLMS) modules of the Integrated Corporate Reporting System (ICRS) Web applications/modules based on defined specifications;",
+        "Provide support in the enhancement of GCG internal applications/modules based on defined specifications;",
+        "Assist in the integration of software component or modules into a fully functional software system;",
+        "Assist in ensuring that the developed program meets all requirements of quality, security, modifiability, and extensibility;",
+        "Assist in testing code periodically to ensure the desirable results and perform debugging when necessary;",
+        "Provide support in preparing required documentations, including both program-level and user-level documentation;",
+        "Perform other functions as may be assigned from time to time by the Application Management Division (AMD) Chief."
+      ]
+    },
+    {
+      "show" : true,
+      "position" : "Web Developer I",
+      "company" : "Note-e-fied Philippines, Inc.",
+      "division" : "",
+      "duration" : "October 2016 - June 2017",
+      "duties" : [
+        "Develop a new SaaS (Software as a Service) application using latest technology and new software development methodology;",
+        "Ensure that the developed application meets all the requirements of quality, security, modifiability, and extensibility;",
+        "Maintain existing applications."
+      ]
+    },
+    {
+      "show" : true,
+      "position" : "Software Support Specialist",
+      "company" : "Note-e-fied Philippines, Inc.",
+      "division" : "",
+      "duration" : "June 2015 - October 2016",
+      "duties" : [
+        "Support users in application modules based on company-standards;",
+        "Provide support to customers by resolving concerns and inquiries;",
+        "Accurately provide real time support;",
+        "Ensure adherence to quality standards."
+      ]
+    }
+  ],
+  "otherjob" : [
+    {
+      "show" : true,
+      "position" : "Part-time Faculty",
+      "company" : "University of the Immaculate Conception",
+      "division" : "Information and Technology Education (ITE) Program",
+      "duration" : "June 2015 - October 2015",
+      "duties" : [
+        "Responsible for teaching of both core and elective subjects in the field specialization as allocated by the Head of the Program offered by the University;",
+        "Also, conduct laboratory courses, tutorials and seminars of the subject assigned in an effective manner, so as to improve the practical knowledge of the student;",
+        "Lastly, conduct the core/elective subject as project based / experimental / activity-based learning."
+      ]
+    },
+    {
+      "show" : true,
+      "position" : "EZ Tech Instructor",
+      "company" : "University of the Immaculate Conception",
+      "division" : "Information and Technology Education (ITE) Program",
+      "duration" : "June 2015 - October 2015",
+      "duties" : [
+        "Responsible for teaching basic to intermediate knowledge on Microsoft Office Applications (e.g. Word, PowerPoint, Excel, etc.);",
+        "Also, responsible for teaching basic to intermediate knowledge on Website Designing particularly in the usage of Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS)."
+      ]
+    },
+    {
+      "show" : true,
+      "position" : "Market Research Interviewer",
+      "company" : "Survey Sampling International, Inc.",
+      "division" : "",
+      "duration" : "April 2014 - July 2014",
+      "duties" : [
+        "Ensure interviews conducted are done with the highest level of quality by properly administering each survey without falsification of data and bias;",
+        "Perform survey research by using proper interviewing techniques and adhering to strict methodologies and guidelines;",
+        "Record respondent’s answers with 100% accuracy, including typing respondent’s verbal answers in verbatim to survey questions and meet assigned quota for survey collection;",
+        "Promote and provide extraordinary guest service for both internal and external guests; answer questions, offer information, and help in a courteous manner."
+      ]
+    },
+    {
+      "show" : true,
+      "position" : "Seasonal Sales and Customer Service Representative",
+      "company" : "Cyber City Teleservices, Inc.",
+      "division" : "1800Flowers.com",
+      "duration" : "April 2013 - May 2013",
+      "duties" : [
+        "Responsible for driving sales and achieving sales goals across assigned product categories;",
+        "Identify, qualify, prepare, and execute effective sales strategies that maintain the existing base of business and support the close of competitive and revenue growth opportunities;",
+        "Master all products and applications by demonstrating ongoing competency;",
+        "Maintain and increase sales volume within assigned accounts and territory;",
+        "Assist customers with back-orders and other related service issues;",
+        "Answers incoming phone calls and inquiries. Routes calls and messages within the management system to appropriate staff;",
+        "Resolve customer complaints in accordance with Company Policy and advises sales management promptly of any situation beyond the Sales Representative’s Authority."
+      ]
+    }
+  ]
+}

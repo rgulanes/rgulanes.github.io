@@ -1,0 +1,79 @@
+[
+	{
+    "show" : true,
+    "title" : "Agile Project Management with Scrum Training",
+    "company" : "ActiveLearning, Inc.",
+    "division" : "",
+    "date" : "November 2018"
+  },
+  {
+    "show" : true,
+    "title" : "Comprehensive User Experience Training",
+    "company" : "ActiveLearning, Inc.",
+    "division" : "",
+    "date" : "November 2018"
+  },
+  {
+    "show" : true,
+    "title" : "Grammar and Business Writing Training",
+    "company" : "TalkShop",
+    "division" : "",
+    "date" : "November 2018"
+  },
+  {
+    "show" : true,
+    "title" : "ITIL&reg; Foundation Training",
+    "company" : "ActiveLearning, Inc.",
+    "division" : "",
+    "date" : "October 2018"
+  },
+  {
+    "show" : true,
+    "title" : "GCG Enterprise Risk Management (GERM) Capacity Building Workshop",
+    "company" : "Governance Commission for GOCCs",
+    "division" : "",
+    "date" : "September 2018"
+  },
+  {
+    "show" : true,
+    "title" : "Customer Service Training",
+    "company" : "Business Coach, Inc.",
+    "division" : "",
+    "date" : "December 2017"
+  },
+  {
+    "show" : true,
+    "title" : "NAGIOS XI Administrator Training - Basic",
+    "company" : "Sagesoft Solutions, Inc.",
+    "division" : "",
+    "date" : "July 2017"
+  },
+  {
+    "show" : true,
+    "title" : "SAP&reg; Business One",
+    "company" : "Fasttrack Solutions Inc. (FastTrack IT Academy)",
+    "division" : "",
+    "date" : "October 2013 - March 2014"
+  },
+  {
+    "show" : true,
+    "title" : "BizStart Davao 2014",
+    "company" : "Davao United Association of Animators and Designers, Inc.",
+    "division" : "",
+    "date" : "October 2014"
+  },
+  {
+    "show" : true,
+    "title" : "Android Code Camp",
+    "company" : "University of the Immaculate Conception",
+    "division" : "Information Technology Incubation and Development Facility",
+    "date" : "October 2014"
+  },
+  {
+    "show" : true,
+    "title" : "Campus DevCon 2012",
+    "company" : "Developers Connect (DevCon) Philippines",
+    "division" : "",
+    "date" : "January 2012 and December 2012"
+  }
+]
