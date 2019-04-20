@@ -101,7 +101,7 @@ $(document).ready(function () {
     $.each(data, function (index, course) {
       if(course.show) {
         var html = [
-          '<div class="experience margin-b-50">',
+          '<div class="experience margin-b-30">',
             '<h4 class="text-uppercase"><b>'+ course.title +'</b></h4>',
             '<h5 class="font-yellow text-uppercase">',
               '<b>'+ course.company,
@@ -128,7 +128,7 @@ $(document).ready(function () {
         if(school.distinctions.length) {
           $.each(school.distinctions, function (i, data) {
             var award = [
-              '<span class="margin-2 text-sm badge badge-pill '+ (data.is_honor ? 'badge-success text-uppercase' : 'badge-default') +'">',
+              '<span class="margin-2 text-sm badge badge-pill '+ (data.is_honor ? 'badge-success' : 'badge-default') +'">',
                 '<b>'+ data.name + '</b>',
               '</span>'
             ].join('');
