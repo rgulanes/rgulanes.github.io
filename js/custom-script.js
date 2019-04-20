@@ -82,7 +82,7 @@ $(document).ready(function () {
     $.each(data, function (index, cert) {
       if(cert.show) {
         var html = [
-          '<div class="experience margin-b-50">',
+          '<div class="experience margin-b-30">',
             '<h4 class="text-uppercase"><b>'+ cert.title +'</b></h4>',
             '<h5 class="font-yellow text-uppercase"><b>'+ cert.company +'</b></h5>',
             '<h6 class="font-lite-black text-uppercase">Issued '+ cert.issuance +'</h6>',
