@@ -1,0 +1,143 @@
+{
+  "__comment" : "1 - programming, 2 - software, 3 - others",
+  "data" : [
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 98,
+      "description" : "HTML5 and CSS3"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Native Javascript"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 95,
+      "description" : "JQuery"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 90,
+      "description" : "AngularJS"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 97,
+      "description" : "MySQL"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 90,
+      "description" : "MSSQL"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 80,
+      "description" : "C#"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 95,
+      "description" : "PHP"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Database Architecture"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 65,
+      "description" : "WordPress"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Adobe Photoshop"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 98,
+      "description" : "Microsoft Office (Word, Excel, and Presentation)"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 98,
+      "description" : "Microsoft Publisher"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Version Control System (Git and TortoiseSVN)"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 80,
+      "description" : "Sony Vegas Pro"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 85,
+      "description" : "SAP Business One"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 95,
+      "description" : "Task Management Software (Asana, Trello, Jira)"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 98,
+      "description" : "Comprehensive IT Knowledge"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 95,
+      "description" : "Issue Tracking"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 95,
+      "description" : "Customer Relationship Management"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 95,
+      "description" : "Communication Skills"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 95,
+      "description" : "Interpersonal Skills"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Project Scheduling"
+    }
+  ]
+}

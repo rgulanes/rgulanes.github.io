@@ -2,7 +2,11 @@ $(document).ready(function () {
 	var otherJobs = $('#other-jobs'),
       itRelatedJobs = $('#itrelated-jobs'),
       licensesCerts = $('#licenses-certifications'),
-      courseAttended = $('#courses-attended');
+      courseAttended = $('#courses-attended'),
+      acadCareer = $('#academic-career'),
+      programmingRelated = $('#programming-skill'),
+      softwareRelated = $('#softwarerelated-skill'),
+      otherRelated = $('#otherrelated-skill');
 
   // Work Experience
   $.get('./json/work-experience.json', function (data) {
@@ -90,7 +94,7 @@ $(document).ready(function () {
     });
   });
 
-  // Licenses and Certifications
+  // Courses Attended
   $.get('./json/courses-attended.json', function (data) {
     courseAttended.html('');
 
@@ -111,5 +115,75 @@ $(document).ready(function () {
         courseAttended.append(html);
       }
     });
+  });
+
+  // Education
+  $.get('./json/academic-career.json', function (data) {
+    acadCareer.html('');
+
+    $.each(data, function (index, school) {
+      if(school.show) {
+        var distinctions = '';
+
+        if(school.distinctions.length) {
+          $.each(school.distinctions, function (i, data) {
+            var award = [
+              '<span class="margin-2 text-sm badge badge-pill '+ (data.is_honor ? 'badge-success text-uppercase' : 'badge-default') +'">',
+                '<b>'+ data.name + '</b>',
+              '</span>'
+            ].join('');
+
+            distinctions += award;
+          });
+        }
+
+        var html = [
+          '<div class="education margin-b-50">',
+            '<h4 class="text-uppercase"><b>'+ school.name +'</b></h4>',
+            (school.degree ? '<h5 class="font-yellow text-uppercase"><b>'+ school.degree +'</b></h5>' : ''),
+            '<h6 class="font-lite-black text-uppercase">'+ school.date_graduated +'</h6>',
+            (school.distinctions.length ? '<p class="margin-tb-10"><u class="text-sm">Honors and/or Awards:</u> <br>'+ distinctions +'</p>' : ''),
+          '</div>'
+        ].join('');
+
+        acadCareer.append(html);
+      }
+    });
+  });
+
+  // Skills and Knowledge
+  $.get('./json/skills-knowledge.json', function (response) {
+    programmingRelated.find('div.panel-desc').html('');
+    softwareRelated.find('div.panel-desc').html('');
+    otherRelated.find('div.panel-desc').html('');
+
+    $.each(response.data, function (index, skill) {
+      if(skill.show) {
+        var html = [
+          '<div class="col-sm-12 col-md-6">',
+            '<div class="line-progress margin-b-5" data-prog-percent=".'+ skill.rate +'" data-prog-text="">',
+              '<p class="progress-title">',
+                '<b>'+ skill.description +'</b>',
+              '</p>',
+              '<div></div>',
+            '</div>',
+          '</div>'
+        ].join('');
+
+        switch(skill.classification) {
+          case 1 : 
+            programmingRelated.find('div.panel-desc').append(html);
+            break;
+          case 2 : 
+            softwareRelated.find('div.panel-desc').append(html);
+            break;
+          case 3 : 
+            otherRelated.find('div.panel-desc').append(html);
+            break;
+        }
+      }
+    });
+    
+    enableLineProgress();
   });
 });

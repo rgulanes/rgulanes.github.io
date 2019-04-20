@@ -1,0 +1,38 @@
+[
+	{
+		"show" : true,
+		"name" : "University of the Immaculate Conception",
+		"degree" : "Bachelor of Science in Information Technology - Specialized in Software Engineering",
+		"date_graduated" : "March 2015 (4 Years)",
+		"distinctions" : [
+			{ "name" : "Cum Laude", "is_honor" : true },
+			{ "name" : "Program Leadership Award", "is_honor" : false },
+			{ "name" : "Outstanding Capstone Project Award", "is_honor" : false }
+		]
+	},
+	{
+		"show" : true,
+		"name" : "Pablo Lorenzo National High School",
+		"degree" : "",
+		"date_graduated" : "June 2008 - March 2011 (3 Years)",
+		"distinctions" : [
+			{ "name" : "Class Valedictorian", "is_honor" : true }
+		]
+	},
+	{
+		"show" : true,
+		"name" : "Philippine Nikkei Jin Kai International School",
+		"degree" : "",
+		"date_graduated" : "March 2008 (1 Year)",
+		"distinctions" : []
+	},
+	{
+		"show" : true,
+		"name" : "Mandug Christian Development and Training Center",
+		"degree" : "",
+		"date_graduated" : "March 2007 (6 Years)",
+		"distinctions" : [
+			{ "name" : "Class Salutatorian", "is_honor" : true }
+		]
+	}
+]

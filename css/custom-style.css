@@ -1,6 +1,7 @@
 .text-uppercase { text-transform: uppercase; }
 .text-normal { text-transform: none !important; }
 .text-sm { font-size: 11pt; }
+.text-md { font-size: 15pt; }
 .text-xs { font-size: 8pt; }
 
 .copyright { background-color: #102542 !important; }
@@ -11,6 +12,8 @@
 }
 
 .hidden { display: none; }
+
+.margin-2 { margin: 2px; }
 
 ul.list {
 	text-align: justify;
