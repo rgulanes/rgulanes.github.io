@@ -1,19 +1,26 @@
 {
   "itrelated" : [
   	{
-  		"show" : false,
+  		"show" : true,
+      "is_current" : true,
       "position" : "Information Systems Analyst II",
       "company" : "Governance Commission for GOCCs (GCG)",
       "division" : "Information and Communications Technology Group – Application Management Division",
-      "duration" : "June 2019 - PRESENT",
-      "duties" : []
+      "duration" : "May 2019 - PRESENT",
+      "duties" : [
+        "Provide technical assistance and support on troubleshooting and maintaining ICT applications to ensure service continuity;",
+        "Assist in the daily administration of the application server and systems backup to ensure the service availability;",
+        "Conducts research and recommends innovative approaches for ICT applications administration to improve the service provisioning;",
+        "Perform other functions as may be assigned by the Application Management Division (AMD) Chief from time to time."
+      ]
   	},
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Junior Software Engineer",
       "company" : "Governance Commission for GOCCs (GCG)",
       "division" : "Information and Communications Technology Group – Application Management Division",
-      "duration" : "July 2017 - PRESENT",
+      "duration" : "July 2017 - May 2019",
       "duties" : [
         "Provide support in the enhancement of the applications/modules of the Integrated Corporate Reporting System (ICRS) based on defined specifications;",
         "Contribute in the enhancement of GCG internal applications/modules based on defined specifications;",
@@ -26,6 +33,7 @@
     },
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Web Developer I",
       "company" : "Note-e-fied Philippines, Inc.",
       "division" : "",
@@ -41,6 +49,7 @@
     },
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Software Support Specialist",
       "company" : "Note-e-fied Philippines, Inc.",
       "division" : "",
@@ -57,6 +66,7 @@
   "otherjob" : [
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Part-time Faculty",
       "company" : "University of the Immaculate Conception",
       "division" : "Information and Technology Education (ITE) Program",
@@ -69,6 +79,7 @@
     },
     {
       "show" : true,
+      "is_current" : false,
       "position" : "EZ Tech Instructor",
       "company" : "University of the Immaculate Conception",
       "division" : "Information and Technology Education (ITE) Program",
@@ -80,6 +91,7 @@
     },
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Market Research Interviewer",
       "company" : "Survey Sampling International, Inc.",
       "division" : "",
@@ -93,6 +105,7 @@
     },
     {
       "show" : true,
+      "is_current" : false,
       "position" : "Seasonal Sales and Customer Service Representative",
       "company" : "Cyber City Teleservices, Inc. an IQOR Company",
       "division" : "1800Flowers.com",

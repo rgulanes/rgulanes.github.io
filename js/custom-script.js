@@ -14,6 +14,7 @@ $(document).ready(function () {
 
     itRelatedJobs.html('');
     otherJobs.html('');
+    $('#current-position').html('');
     $.each(itWork, function (index, info) {
       if (info.show) {
         var duties = '';
@@ -22,6 +23,10 @@ $(document).ready(function () {
           $.each(info.duties, function (i, duty) {
             duties += ('<li>' + duty + '</li>');
           });
+        }
+
+        if (info.is_current) {
+          $('#current-position').html(info.position);
         }
 
         var html = [
