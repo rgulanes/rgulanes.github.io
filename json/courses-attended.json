@@ -1,6 +1,6 @@
 [
   {
-    "show" : false,
+    "show" : true,
     "title" : "Document Management, Data Privacy and Records and Filing Management",
     "company" : "BusinessCoach Inc.",
     "division" : "",
@@ -8,7 +8,7 @@
   },
   {
     "show" : true,
-    "title" : "IT Service Management with Service Operations Training,",
+    "title" : "IT Service Management with Service Operations Training",
     "company" : "SAS Management, Inc.",
     "division" : "",
     "date" : "September 2019"
