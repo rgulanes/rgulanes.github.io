@@ -1,4 +1,18 @@
 [
+  {
+    "show" : false,
+    "title" : "Document Management, Data Privacy and Records and Filing Management",
+    "company" : "BusinessCoach Inc.",
+    "division" : "",
+    "date" : "September 2019"
+  },
+  {
+    "show" : true,
+    "title" : "IT Service Management with Service Operations Training,",
+    "company" : "SAS Management, Inc.",
+    "division" : "",
+    "date" : "September 2019"
+  },
 	{
     "show" : true,
     "title" : "Agile Project Management with Scrum Training",
