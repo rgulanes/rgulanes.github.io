@@ -1,6 +1,20 @@
 [
   {
     "show" : true,
+    "title" : "Certified Ethical Hacking",
+    "company" : "SAS Management, Inc.",
+    "division" : "",
+    "date" : "November 2019"
+  },
+  {
+    "show" : true,
+    "title" : "IT Security Awareness",
+    "company" : "SAS Management, Inc.",
+    "division" : "",
+    "date" : "November 2019"
+  },
+  {
+    "show" : true,
     "title" : "Document Management, Data Privacy and Records and Filing Management",
     "company" : "BusinessCoach Inc.",
     "division" : "",
