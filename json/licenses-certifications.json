@@ -1,4 +1,10 @@
 [
+  {
+    "show" : true,
+    "title" : "Certified Ethical Hacker",
+    "company" : "EC-Council",
+    "issuance" : "November 2019"
+  },
 	{
     "show" : true,
     "title" : "Foundation Certificate in User Experience (UX)",
