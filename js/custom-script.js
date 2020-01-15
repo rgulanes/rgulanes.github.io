@@ -9,7 +9,7 @@ $(document).ready(function () {
       otherRelated = $('#otherrelated-skill');
 
   // Work Experience
-  $.get('./json/work-experience.json', function (data) {
+  $.get('./json/work-experience.json?v=' + (new Date().getTime()), function (data) {
     var itWork = data.itrelated, otherWork = data.otherjob;
 
     itRelatedJobs.html('');
@@ -81,7 +81,7 @@ $(document).ready(function () {
   });
 
   // Licenses and Certifications
-  $.get('./json/licenses-certifications.json', function (data) {
+  $.get('./json/licenses-certifications.json?v=' + (new Date().getTime()), function (data) {
     licensesCerts.html('');
 
     $.each(data, function (index, cert) {
@@ -100,7 +100,7 @@ $(document).ready(function () {
   });
 
   // Courses Attended
-  $.get('./json/courses-attended.json', function (data) {
+  $.get('./json/courses-attended.json?v=' + (new Date().getTime()), function (data) {
     courseAttended.html('');
 
     $.each(data, function (index, course) {
@@ -123,7 +123,7 @@ $(document).ready(function () {
   });
 
   // Education
-  $.get('./json/academic-career.json', function (data) {
+  $.get('./json/academic-career.json?v=' + (new Date().getTime()), function (data) {
     acadCareer.html('');
 
     $.each(data, function (index, school) {
@@ -157,7 +157,7 @@ $(document).ready(function () {
   });
 
   // Skills and Knowledge
-  $.get('./json/skills-knowledge.json', function (response) {
+  $.get('./json/skills-knowledge.json?v=' + (new Date().getTime()), function (response) {
     programmingRelated.find('div.panel-desc').html('');
     softwareRelated.find('div.panel-desc').html('');
     otherRelated.find('div.panel-desc').html('');
