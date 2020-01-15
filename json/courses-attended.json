@@ -1,21 +1,48 @@
 [
   {
     "show" : true,
-    "title" : "Certified Ethical Hacking",
+    "title" : "IT Security Awareness",
+    "subtitle" : "",
     "company" : "SAS Management, Inc.",
     "division" : "",
     "date" : "November 2019"
   },
   {
     "show" : true,
-    "title" : "IT Security Awareness",
+    "title" : "Certified Ethical Hacking",
+    "subtitle" : "",
     "company" : "SAS Management, Inc.",
     "division" : "",
     "date" : "November 2019"
+  },
+  {
+    "show" : true,
+    "title" : "DevOps Training",
+    "subtitle" : "Systems Development and Testing Training",
+    "company" : "Orange and Bronze Software Labs, Inc.",
+    "division" : "",
+    "date" : "October 2019"
+  },
+  {
+    "show" : true,
+    "title" : "Angular 5.0 Training",
+    "subtitle" : "Systems Development and Testing Training",
+    "company" : "Orange and Bronze Software Labs, Inc.",
+    "division" : "",
+    "date" : "October 2019"
+  },
+  {
+    "show" : true,
+    "title" : "Database Optimization Training",
+    "subtitle" : "Systems Development and Testing Training",
+    "company" : "Orange and Bronze Software Labs, Inc.",
+    "division" : "",
+    "date" : "October 2019"
   },
   {
     "show" : true,
     "title" : "Document Management, Data Privacy and Records and Filing Management",
+    "subtitle" : "",
     "company" : "BusinessCoach Inc.",
     "division" : "",
     "date" : "September 2019"
@@ -23,6 +50,7 @@
   {
     "show" : true,
     "title" : "IT Service Management with Service Operations Training",
+    "subtitle" : "",
     "company" : "SAS Management, Inc.",
     "division" : "",
     "date" : "September 2019"
@@ -30,6 +58,7 @@
 	{
     "show" : true,
     "title" : "Agile Project Management with Scrum Training",
+    "subtitle" : "",
     "company" : "ActiveLearning, Inc.",
     "division" : "",
     "date" : "November 2018"
@@ -37,6 +66,7 @@
   {
     "show" : true,
     "title" : "Comprehensive User Experience Training",
+    "subtitle" : "",
     "company" : "ActiveLearning, Inc.",
     "division" : "",
     "date" : "November 2018"
@@ -44,6 +74,7 @@
   {
     "show" : true,
     "title" : "Grammar and Business Writing Training",
+    "subtitle" : "",
     "company" : "TalkShop",
     "division" : "",
     "date" : "November 2018"
@@ -51,6 +82,7 @@
   {
     "show" : true,
     "title" : "ITIL&reg; Foundation Training",
+    "subtitle" : "",
     "company" : "ActiveLearning, Inc.",
     "division" : "",
     "date" : "October 2018"
@@ -58,6 +90,7 @@
   {
     "show" : true,
     "title" : "GCG Enterprise Risk Management (GERM) Capacity Building Workshop",
+    "subtitle" : "",
     "company" : "Governance Commission for GOCCs",
     "division" : "",
     "date" : "September 2018"
@@ -65,6 +98,7 @@
   {
     "show" : true,
     "title" : "Customer Service Training",
+    "subtitle" : "",
     "company" : "Business Coach, Inc.",
     "division" : "",
     "date" : "December 2017"
@@ -72,6 +106,7 @@
   {
     "show" : true,
     "title" : "NAGIOS XI Administrator Training - Basic",
+    "subtitle" : "",
     "company" : "Sagesoft Solutions, Inc.",
     "division" : "",
     "date" : "July 2017"
@@ -79,27 +114,31 @@
   {
     "show" : true,
     "title" : "SAP&reg; Business One",
+    "subtitle" : "",
     "company" : "Fasttrack Solutions Inc. (FastTrack IT Academy)",
     "division" : "",
     "date" : "October 2013 - March 2014"
   },
   {
-    "show" : true,
+    "show" : false,
     "title" : "BizStart Davao 2014",
+    "subtitle" : "",
     "company" : "Davao United Association of Animators and Designers, Inc.",
     "division" : "",
     "date" : "October 2014"
   },
   {
-    "show" : true,
+    "show" : false,
     "title" : "Android Code Camp",
+    "subtitle" : "",
     "company" : "University of the Immaculate Conception",
     "division" : "Information Technology Incubation and Development Facility",
     "date" : "October 2014"
   },
   {
-    "show" : true,
+    "show" : false,
     "title" : "Campus DevCon 2012",
+    "subtitle" : "",
     "company" : "Developers Connect (DevCon) Philippines",
     "division" : "",
     "date" : "January 2012 and December 2012"

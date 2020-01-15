@@ -108,9 +108,10 @@ $(document).ready(function () {
         var html = [
           '<div class="experience margin-b-30">',
             '<h4 class="text-uppercase"><b>'+ course.title +'</b></h4>',
+            (course.subtitle ? '<h5 class="text-uppercase"><small>' + course.subtitle + '</small></h5>' : '' ),
             '<h5 class="font-yellow text-uppercase">',
               '<b>'+ course.company,
-              (course.division ? '<br><small>' + course.division + '</small>' : '' ),
+              (course.division ? '<br/><small>' + course.division + '</small>' : '' ),
               '</b>',
             '</h5>',
             '<h6 class="font-lite-black text-uppercase">'+ course.date +'</h6>',
