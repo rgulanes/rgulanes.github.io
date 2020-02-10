@@ -32,10 +32,9 @@ $(document).ready(function () {
         var html = [
           '<div class="experience margin-b-50">',
             '<h4 class="text-uppercase"><b>'+ info.position +'</b></h4>',
-            '<h5 class="font-yellow text-uppercase">',
-              '<b>'+ info.company,
+            '<h5 class="font-yellow text-uppercase text-bold">',
+              info.company,
               (info.division ? '<br><small>' + info.division + '</small>' : '' ),
-              '</b>',
             '</h5>',
             '<h6 class="font-lite-black margin-tb-10 text-uppercase">'+ info.duration +'</h6>',
             (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
@@ -61,11 +60,10 @@ $(document).ready(function () {
 
         var html = [
           '<div class="experience margin-b-50">',
-            '<h4 class="text-uppercase"><b>'+ info.position +'</b></h4>',
-            '<h5 class="font-yellow text-uppercase">',
-              '<b>'+ info.company,
+            '<h4 class="text-uppercase text-bold">'+ info.position +'</h4>',
+            '<h5 class="font-yellow text-uppercase text-bold">',
+              info.company,
               (info.division ? '<br><small>' + info.division + '</small>' : '' ),
-              '</b>',
             '</h5>',
             '<h6 class="font-lite-black margin-tb-10 text-uppercase">'+ info.duration +'</h6>',
             (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
@@ -88,8 +86,8 @@ $(document).ready(function () {
       if(cert.show) {
         var html = [
           '<div class="experience margin-b-30">',
-            '<h4 class="text-uppercase"><b>'+ cert.title +'</b></h4>',
-            '<h5 class="font-yellow text-uppercase"><b>'+ cert.company +'</b></h5>',
+            '<h4 class="text-uppercase text-bold">'+ cert.title +'</h4>',
+            '<h5 class="font-yellow text-uppercase text-bold">'+ cert.company +'</h5>',
             '<h6 class="font-lite-black text-uppercase">Issued '+ cert.issuance +'</h6>',
           '</div>'
         ].join('');
@@ -107,12 +105,11 @@ $(document).ready(function () {
       if(course.show) {
         var html = [
           '<div class="experience margin-b-30">',
-            '<h4 class="text-uppercase"><b>'+ course.title +'</b></h4>',
+            '<h4 class="text-uppercase text-bold">'+ course.title +'</h4>',
             (course.subtitle ? '<h5 class="text-uppercase"><small>' + course.subtitle + '</small></h5>' : '' ),
-            '<h5 class="font-yellow text-uppercase">',
-              '<b>'+ course.company,
+            '<h5 class="font-yellow text-uppercase text-bold">',
+              course.company,
               (course.division ? '<br/><small>' + course.division + '</small>' : '' ),
-              '</b>',
             '</h5>',
             '<h6 class="font-lite-black text-uppercase">'+ course.date +'</h6>',
           '</div>'
@@ -134,8 +131,8 @@ $(document).ready(function () {
         if(school.distinctions.length) {
           $.each(school.distinctions, function (i, data) {
             var award = [
-              '<span class="margin-2 text-sm badge badge-pill '+ (data.is_honor ? 'badge-success' : 'badge-default') +'">',
-                '<b>'+ data.name + '</b>',
+              '<span class="margin-2 text-sm badge badge-pill text-bold '+ (data.is_honor ? 'badge-success' : 'badge-default') +'">',
+                data.name,
               '</span>'
             ].join('');
 
@@ -145,8 +142,8 @@ $(document).ready(function () {
 
         var html = [
           '<div class="education margin-b-50">',
-            '<h4 class="text-uppercase"><b>'+ school.name +'</b></h4>',
-            (school.degree ? '<h5 class="font-yellow text-uppercase"><b>'+ school.degree +'</b></h5>' : ''),
+            '<h4 class="text-uppercase text-bold">'+ school.name +'</h4>',
+          (school.degree ? '<h5 class="font-yellow text-uppercase text-bold">'+ school.degree +'</h5>' : ''),
             '<h6 class="font-lite-black text-uppercase">'+ school.date_graduated +'</h6>',
             (school.distinctions.length ? '<p class="margin-tb-10"><u class="text-sm">Honors and/or Awards:</u> <br>'+ distinctions +'</p>' : ''),
           '</div>'
@@ -168,8 +165,8 @@ $(document).ready(function () {
         var html = [
           '<div class="col-sm-12 col-md-6">',
             '<div class="line-progress margin-b-5" data-prog-percent=".'+ skill.rate +'" data-prog-text="">',
-              '<p class="progress-title">',
-                '<b>'+ skill.description +'</b>',
+              '<p class="progress-title text-bold">',
+                skill.description,
               '</p>',
               '<div></div>',
             '</div>',

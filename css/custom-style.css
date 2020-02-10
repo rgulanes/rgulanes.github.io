@@ -3,8 +3,11 @@
 .text-sm { font-size: 11pt; }
 .text-md { font-size: 15pt; }
 .text-xs { font-size: 8pt; }
+.text-bold { font-weight: 600; }
 
 .copyright { background-color: #102542 !important; }
+
+.cv-name { font-size: 2em; }
 
 .intro .social-icons > li > a {
     background: #233e63;
