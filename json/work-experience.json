@@ -8,11 +8,12 @@
       "division" : "Information and Communications Technology Group – Application Management Division",
       "duration" : "May 2019 - PRESENT",
       "duties" : [
-        "Provide technical assistance and support on troubleshooting and maintaining ICT applications to ensure service continuity;",
-        "Conduct research and recommends innovative approaches for ICT applications administration to improve the service provisioning;",
-        "Conduct code testing to ensure that the desirable results of the application are met and perform debugging if necessary;",
-        "Prepare documentations, including both program-level and user-level for both External and Internal Applications of GCG; and",
-        "Perform other functions as may be assigned by the Application Management Division (AMD) Chief from time to time."
+        "Provides technical assistance and support on troubleshooting and maintaining existing internal and external applications of GCG to ensure service continuity; and",
+        "Conducts research and recommends innovative approaches to improve the service provisioning of the applications of the organization"
+      ],
+      "achievements": [
+        "Efficiently utilized and implemented infographics on email advisories sent to the stakeholders of the ICRS resulting to reduced number of emails and phone inquiries received by the team; and",
+        "Established a centralized working tracker for the ICRS through the creation of an .xlsx file as an initiative to have a single file that is to access by the team to get relevant information relating to the ICRS."
       ]
   	},
     {
@@ -23,13 +24,12 @@
       "division" : "Information and Communications Technology Group – Application Management Division",
       "duration" : "July 2017 - May 2019",
       "duties" : [
-        "Provided support in the enhancement of the applications/modules of the Integrated Corporate Reporting System (ICRS) based on defined specifications;",
-        "Contributed in the enhancement of GCG internal applications/modules based on defined specifications;",
-        "Integrated software component(s) or module(s) into a fully functional software system;",
-        "Ensured the developed program meets all requirements of quality, security, modifiability, and extensibility;",
-        "Conducted periodical code testing to ensure that the desirable results of the application are met and perform debugging if necessary;",
-        "Prepared required documentations, including both program-level and user-level for both External and Internal Applications of GCG; and",
-        "Performed other functions that may be assigned from time to time by the Application Management Division (AMD) Chief."
+        "Provided support in the enhancement of the applications/modules of the Integrated Corporate Reporting System (ICRS) based on defined specifications of the product-owners; and",
+        "Provided support in preparing required documentations, including both program-level and user-level documentation."
+      ],
+      "achievements" : [
+        "Established standard templates and correspondences resulting to a more improved and efficient approach of addressing the received concerns and/or inquiries by the team; and",
+        "Provided comprehensive layout and content for the user manuals used for the sub-components of the ICRS."
       ]
     },
     {
@@ -40,12 +40,12 @@
       "division" : "",
       "duration" : "October 2016 - June 2017",
       "duties" : [
-        "Contributed in the development of a new SaaS (Software as a Service) application using latest technology and new software development methodology;",
-        "Assisted the On-the-Job Trainees on their activities during their OJT in Note-e-fied Phils., Inc.;",
-        "Enhanced the modules of the existing issue tracking system utilized by the Web Developers, SQA, and Software Support Specialists;",
-        "Ensured that the enhancement made to application meets all the requirements specified by the end-user;",
-        "Coordinated with the Software Quality Assurance for any identified issues on the developed and enhanced applications; and",
-        "Maintained existing applications and performed debugging when needed."
+        "Contributed in the development of a new SaaS (Software as a Service) application ensuring that it meets all requirements of quality, security, modifiability, and extensibility; and",
+        "Enhanced the modules of the existing issue tracking system utilized by the Web Developers, SQA, and Software Support Specialists."
+      ],
+      "achievements": [
+        "Successfully implemented a Kanban Board in the issue tracking system of Note-e-fied Phils., Inc.; and",
+        "Supervised six (6) interns during their practicum in Note-e-fied Phils., Inc."
       ]
     },
     {
@@ -56,11 +56,12 @@
       "division" : "",
       "duration" : "June 2015 - October 2016",
       "duties" : [
-        "Provided support to customers by resolving concerns and inquiries in accordance to the company standards;",
-        "Documented the reported concerns/issues of the customer and forwarded it to the appropriate officer/staff for their review and appropriate action;",
-        "Resolved issues that occurred during the processing of claim submission of Home Health and Hospice Agencies;",
-        "Assisted the Home Health and Hospice Agencies in the enrollment to the Medicare Direct Data Entry (DDE) through the Ability Network; and",
-        "Monitored the enrollment and cancellation of Home Health and Hospice Agencies to the Medicare DDE."
+        "Provided support to customers by resolving their concerns and inquiries while ensuring adherence to the company standards; and",
+        "Documented the reported concerns/issues of the customer and escalated it if needed to the appropriate officer/staff for their review and/or appropriate action."
+      ],
+      "achievements": [
+        "Developed a web-based application to monitor Software Support Specialists’ performance based on their Key Performance Indicator; and",
+        "Successfully resolved issues that occurred during processing of claim submissions of Home Health and Hospice Agencies."
       ]
     }
   ],
@@ -73,10 +74,10 @@
       "division" : "Information and Technology Education (ITE) Program",
       "duration" : "June 2015 - October 2015",
       "duties" : [
-        "Taught both core and elective subjects in the field specialization as allocated by the Head of the Program offered by the University;",
-        "Conducted laboratory courses, tutorials and seminars of the subject assigned in an effective manner, so as to improve the practical knowledge of the student; and",
-        "Provided the core/elective subject as project based / experimental / activity-based learning."
-      ]
+        "Taught both core and elective subjects in the field specialization as allocated by the Head of the Program offered by the University; and",
+        "Conducted laboratory courses, tutorials and seminars of the subject assigned in an effective manner, so as to improve the practical knowledge of the student."
+      ],
+      "achievements": []
     },
     {
       "show" : true,
@@ -88,7 +89,8 @@
       "duties" : [
         "Conducted basic to intermediate Website Designing class particularly in the usage of Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS); and",
         "Discussed and taught basic to intermediate knowledge on Microsoft Office Applications (e.g. Word, PowerPoint, Excel, etc.)."
-      ]
+      ],
+      "achievements": []
     },
     {
       "show" : true,
@@ -99,10 +101,10 @@
       "duration" : "April 2014 - July 2014",
       "duties" : [
         "Ensured that the interviews conducted are done with the highest level of quality by properly administering each survey without falsification of data and bias;",
-        "Performed survey research by using proper interviewing techniques and adhering to strict methodologies and guidelines;",
         "Recorded respondent’s answers with 100% accuracy, including typing respondent’s verbal answers in verbatim to survey questions and meet assigned quota for survey collection; and",
-        "Promoted and provided extraordinary guest service for both internal and external guests; answered questions, offered information, and helped in a courteous manner."
-      ]
+        "Performed survey research by using proper interviewing techniques and adhering to strict methodologies and guidelines."
+      ],
+      "achievements": []
     },
     {
       "show" : true,
@@ -112,13 +114,12 @@
       "division" : "1800Flowers.com",
       "duration" : "April 2013 - May 2013",
       "duties" : [
-        "Identified, qualified, prepared, and executed effective sales strategies that maintain the existing base of business and support the close of competitive and revenue growth opportunities;",
         "Mastered all products and applications by demonstrating ongoing competency;",
-        "Maintained and increased sales volume within assigned accounts and territory;",
-        "Assisted customers with back-orders and other related service issues;",
+        "Assisted customers with backorders and other related service issues;",
         "Answered incoming phone calls and inquiries. Routed calls and messages within the management system to appropriate staff; and",
-        "Resolved customer complaints in accordance with Company Policy and advised sales management promptly of any situation beyond the Sales Representative’s Authority."
-      ]
+        "Resolved customer complaints in accordance with Company Policy and advised sales management promptly of any situation beyond the Sales Representative’s Authority. "
+      ],
+      "achievements": []
     }
   ]
 }

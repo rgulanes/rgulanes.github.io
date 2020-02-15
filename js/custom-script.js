@@ -17,30 +17,36 @@ $(document).ready(function () {
     $('#current-position').html('');
     $.each(itWork, function (index, info) {
       if (info.show) {
-        var duties = '';
+        var duties = '', achievements = '';
 
-        if(info.duties.length) {
+        if (info.duties.length) {
           $.each(info.duties, function (i, duty) {
             duties += ('<li>' + duty + '</li>');
           });
         }
 
-        if (info.is_current) {
-          $('#current-position').html(info.position);
+        if (info.achievements.length) {
+          $.each(info.achievements, function (i, achievement) {
+            achievements += ('<li>' + achievement + '</li>');
+          });
         }
 
         var html = [
           '<div class="experience margin-b-50">',
-            '<h4 class="text-uppercase"><b>'+ info.position +'</b></h4>',
-            '<h5 class="font-yellow text-uppercase text-bold">',
-              info.company,
-              (info.division ? '<br><small>' + info.division + '</small>' : '' ),
-            '</h5>',
-            '<h6 class="font-lite-black margin-tb-10 text-uppercase">'+ info.duration +'</h6>',
-            (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
-            (info.duties.length ? '<ul class="list margin-b-30 text-sm">' : ''),
-            (info.duties.length ? duties : ''),
-            (info.duties.length ? '</ul>' : ''),
+          '<h4 class="text-uppercase text-bold">' + info.position + '</h4>',
+          '<h5 class="font-yellow text-uppercase text-bold">',
+          info.company,
+          (info.division ? '<br><small>' + info.division + '</small>' : ''),
+          '</h5>',
+          '<h6 class="font-lite-black margin-tb-10 text-uppercase">' + info.duration + '</h6>',
+          (info.duties.length ? '<p class="margin-tb-10">Summary of Actual Duties:</p>' : ''),
+          (info.duties.length ? '<ul class="list margin-b-30 text-sm">' : ''),
+          (info.duties.length ? duties : ''),
+          (info.duties.length ? '</ul>' : ''),
+          (info.achievements.length ? '<p class="margin-tb-10">Key achievement(s):</p>' : ''),
+          (info.achievements.length ? '<ul class="list margin-b-30 text-sm">' : ''),
+          (info.achievements.length ? achievements : ''),
+          (info.achievements.length ? '</ul>' : ''),
           '</div>'
         ].join('');
 
@@ -50,11 +56,17 @@ $(document).ready(function () {
 
     $.each(otherWork, function (index, info) {
       if (info.show) {
-        var duties = '';
+        var duties = '', achievements = '';
 
         if(info.duties.length) {
           $.each(info.duties, function (i, duty) {
             duties += ('<li>' + duty + '</li>');
+          });
+        }
+        
+        if (info.achievements.length) {
+          $.each(info.achievements, function (i, achievement) {
+            achievements += ('<li>' + achievement + '</li>');
           });
         }
 
@@ -70,6 +82,10 @@ $(document).ready(function () {
             (info.duties.length ? '<ul class="list margin-b-30 text-sm">' : ''),
             (info.duties.length ? duties : ''),
             (info.duties.length ? '</ul>' : ''),
+            (info.achievements.length ? '<p class="margin-tb-10">Key achievement(s):</p>' : ''),
+            (info.achievements.length ? '<ul class="list margin-b-30 text-sm">' : ''),
+            (info.achievements.length ? achievements : ''),
+            (info.achievements.length ? '</ul>' : ''),
           '</div>'
         ].join('');
 
