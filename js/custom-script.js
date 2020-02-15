@@ -25,6 +25,10 @@ $(document).ready(function () {
           });
         }
 
+        if (info.is_current) {
+          $('#current-position').html(info.position);
+        }
+
         if (info.achievements.length) {
           $.each(info.achievements, function (i, achievement) {
             achievements += ('<li>' + achievement + '</li>');
@@ -63,7 +67,11 @@ $(document).ready(function () {
             duties += ('<li>' + duty + '</li>');
           });
         }
-        
+
+        if (info.is_current) {
+          $('#current-position').html(info.position);
+        }
+
         if (info.achievements.length) {
           $.each(info.achievements, function (i, achievement) {
             achievements += ('<li>' + achievement + '</li>');
