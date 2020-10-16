@@ -1,5 +1,13 @@
 [
   {
+    "show": true,
+    "title": "Seminar-Workshop on Integrity, Transparency, and Accountability in Public Service",
+    "subtitle": "",
+    "company": "Office of the Ombudsman",
+    "division": "",
+    "date": "February 2020"
+  },
+  {
     "show" : true,
     "title" : "IT Security Awareness",
     "subtitle" : "",
@@ -54,6 +62,14 @@
     "company" : "SAS Management, Inc.",
     "division" : "",
     "date" : "September 2019"
+  },
+  {
+    "show": true,
+    "title": "Gender Sensitivity Training",
+    "subtitle": "",
+    "company": "Governance Commission for GOCCs",
+    "division": "",
+    "date": "June 2019"
   },
 	{
     "show" : true,
