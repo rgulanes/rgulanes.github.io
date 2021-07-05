@@ -1,12 +1,22 @@
 {
   "itrelated" : [
+    {
+      "show" : true,
+      "is_current" : true,
+      "position" : "Product Coordinator",
+      "company" : "Cavista Technology - Philippines",
+      "division" : "Product Team - Internal Applications",
+      "duration" : "May 2020 - PRESENT",
+      "duties" : [],
+      "achievements": []
+    },
   	{
   		"show" : true,
-      "is_current" : true,
+      "is_current" : false,
       "position" : "Information Systems Analyst II",
       "company" : "Governance Commission for Government-Owned or Controlled Corporations (GCG)",
       "division" : "Information and Communications Technology Group – Application Management Division",
-      "duration" : "May 2019 - PRESENT",
+      "duration" : "May 2019 - April 2020",
       "duties" : [
         "Provides technical assistance and support on troubleshooting and maintaining existing internal and external applications of GCG to ensure service continuity; and",
         "Conducts research and recommends innovative approaches to improve the service provisioning of the applications of the organization"
