@@ -6,9 +6,18 @@
       "position" : "Product Coordinator",
       "company" : "Cavista Technology - Philippines",
       "division" : "Product Team - Internal Applications",
-      "duration" : "May 2020 - PRESENT",
-      "duties" : [],
-      "achievements": []
+      "duration" : "May 2021 - PRESENT",
+      "duties" : [
+        "Plans and prioritizes product feature backlogs and sets the target release and delivery of each.",
+        "Provides an active role in mitigating impediments impacting successful team completion of Release/Sprint Goals.",
+        "Communicates engineering productivity and feature progress to the product stakeholders.",
+        "Provides visibility on product vision and strategy to the engineering team."
+      ],
+      "achievements": [
+        "Spearheaded the creation of work instruction manuals for the existing and common processes of the team.",
+        "Crafted template for the Release Approval tickets of the team which was also utilized by other teams.",
+        "Complete adherence to the planned release schedule with 100% approval rate of the product stakeholders."
+      ]
     },
   	{
   		"show" : true,
@@ -16,7 +25,7 @@
       "position" : "Information Systems Analyst II",
       "company" : "Governance Commission for Government-Owned or Controlled Corporations (GCG)",
       "division" : "Information and Communications Technology Group – Application Management Division",
-      "duration" : "May 2019 - April 2020",
+      "duration" : "May 2019 - April 2021",
       "duties" : [
         "Provides technical assistance and support on troubleshooting and maintaining existing internal and external applications of GCG to ensure service continuity; and",
         "Conducts research and recommends innovative approaches to improve the service provisioning of the applications of the organization"
