@@ -3,15 +3,33 @@
     {
       "show" : true,
       "is_current" : true,
+      "position" : "Associate Product Owner",
+      "company" : "Cavista Technology - Philippines",
+      "division" : "Product Team - Internal Applications",
+      "duration" : "May 2022 - August 2022",
+      "duties" : [
+        "Consistently ensure product roadmaps, backlogs, and release plans comply with Agile methodologies, concepts, and principles.",
+        "Independently managed a multidisciplinary global software engineering team during Daily Scrum, Sprint Planning, Backlog Refinement, and Sprint Retrospective.",
+        "Communicated engineering productivity and feature progress to the product stakeholders.",
+        "Clearly defined and verify requirements, story implementation goals, and product performance from key stakeholders."
+      ],
+      "achievements": [
+        "Crafted multiple Release Notes which are also utilized by other teams for their reference.",
+        "Complete adherence to the planned release schedule with 100% approval rate of the product stakeholders."
+      ]
+    },
+    {
+      "show" : true,
+      "is_current" : false,
       "position" : "Product Owner and Coordinator",
       "company" : "Cavista Technology - Philippines",
       "division" : "Product Team - Internal Applications",
-      "duration" : "May 2021 - PRESENT",
+      "duration" : "May 2021 - May 2022",
       "duties" : [
-        "Plans and prioritizes product feature backlogs and sets the target release and delivery of each.",
-        "Provides an active role in mitigating impediments impacting successful team completion of Release/Sprint Goals.",
-        "Communicates engineering productivity and feature progress to the product stakeholders.",
-        "Provides visibility on product vision and strategy to the engineering team."
+        "Planed and prioritized product feature backlogs and sets the target release and delivery of each.",
+        "Provided an active role in mitigating impediments impacting successful team completion of Release/Sprint Goals.",
+        "Communicated engineering productivity and feature progress to the product stakeholders.",
+        "Provided visibility on product vision and strategy to the engineering team."
       ],
       "achievements": [
         "Spearheaded the creation of work instruction manuals for the existing and common processes of the team.",
@@ -27,8 +45,8 @@
       "division" : "Information and Communications Technology Group – Application Management Division",
       "duration" : "May 2019 - April 2021",
       "duties" : [
-        "Provides technical assistance and support on troubleshooting and maintaining existing internal and external applications of GCG to ensure service continuity; and",
-        "Conducts research and recommends innovative approaches to improve the service provisioning of the applications of the organization"
+        "Provided technical assistance and support on troubleshooting and maintaining existing internal and external applications of GCG to ensure service continuity; and",
+        "Conducted research and recommends innovative approaches to improve the service provisioning of the applications of the organization"
       ],
       "achievements": [
         "Efficiently utilized and implemented infographics on email advisories sent to the stakeholders of the ICRS resulting to reduced number of emails and phone inquiries received by the team; and",
