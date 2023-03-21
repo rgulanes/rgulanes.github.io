@@ -2,7 +2,7 @@
   "itrelated" : [
     {
       "show" : true,
-      "is_current" : true,
+      "is_current" : false,
       "position" : "Associate Product Owner",
       "company" : "Cavista Technology - Philippines",
       "division" : "Product Team - Internal Applications",

@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   // Work Experience
   $.get('./json/work-experience.json?v=' + (new Date().getTime()), function (data) {
-    var itWork = data.itrelated, otherWork = data.otherjob;
+    var itWork = data.itrelated, otherWork = data.otherjob, activePosition = 0;
 
     itRelatedJobs.html('');
     otherJobs.html('');
@@ -27,6 +27,7 @@ $(document).ready(function () {
 
         if (info.is_current) {
           $('#current-position').html(info.position);
+          activePosition++;
         }
 
         if (info.achievements.length) {
@@ -55,6 +56,10 @@ $(document).ready(function () {
         ].join('');
 
         itRelatedJobs.append(html);
+      }
+
+      if (activePosition <= 0) {
+        $('#current-position').html('Software Engineer and Project Manager');
       }
     });
 
@@ -112,7 +117,7 @@ $(document).ready(function () {
           '<div class="experience margin-b-30">',
             '<h4 class="text-uppercase text-bold">'+ cert.title +'</h4>',
             '<h5 class="font-yellow text-uppercase text-bold">'+ cert.company +'</h5>',
-            '<h6 class="font-lite-black text-uppercase">Issued '+ cert.issuance +'</h6>',
+            '<h6 class="font-lite-black text-uppercase">'+ (cert.expired ? '<span title="Expired License"><ion-icon name="alert-cir" class="text-danger" style="margin: -2px 0"></ion-icon></span>' : '' ) + ' Issued '+ cert.issuance + '</h6>',
           '</div>'
         ].join('');
 
@@ -188,12 +193,8 @@ $(document).ready(function () {
       if(skill.show) {
         var html = [
           '<div class="col-sm-12 col-md-6">',
-            '<div class="line-progress margin-b-5" data-prog-percent=".'+ skill.rate +'" data-prog-text="">',
-              '<p class="progress-title text-bold">',
-                skill.description,
-              '</p>',
-              '<div></div>',
-            '</div>',
+            '<p class="progress-title text-bold">' + skill.description + '</p>',
+            '<div class="line-progress margin-b-5" data-prog-percent=".'+ skill.rate +'" data-prog-text=""></div>',
           '</div>'
         ].join('');
 

@@ -11,8 +11,28 @@
 .current-position { font-size: 1.5em; }
 
 .intro .social-icons > li > a {
-    background: #233e63;
-    
+  background: #233e63;
+}
+
+.intro .profile-img {
+  min-width: 10em;
+  max-width: 15em;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+ion-icon.icon {
+  font-size: 1.5rem;
+  margin: 0.3rem;
+}
+
+ion-icon.icon.sm {
+  font-size: 1.2rem;
+  margin: 0.5rem;
 }
 
 .hidden { display: none; }
@@ -73,7 +93,7 @@ p.progress-title {
 
 .panel-area .panel-title.active + .panel-desc{
 	opacity: 1;
-	padding: 5px 5px 0;
+	padding: 1em 0.5em;
 	min-height: 300px; 
 	max-height: 100%;
 	-webkit-transform: scaleY(1);
@@ -87,5 +107,9 @@ p.progress-title {
 .panel-area .panel-title.active .icon.plus{ display: none; }
 
 .intro-section{
-	padding: 50px 0px 20px 0px;
+	padding: 2.5em 2em;
+  position: relative;
+  z-index: 1;
+  background: url(../images/background.jpg) center no-repeat fixed rgb(16, 37, 66);
+  background-blend-mode: multiply;
 }

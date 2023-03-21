@@ -3,30 +3,35 @@
     "show" : true,
     "title" : "Certified Ethical Hacker",
     "company" : "EC-Council",
-    "issuance" : "November 2019"
+    "issuance" : "November 2019",
+    "expired": true
   },
 	{
     "show" : true,
     "title" : "Foundation Certificate in User Experience (UX)",
     "company" : "BCS, The Chartered Institute for IT",
-    "issuance" : "November 2018"
+    "issuance" : "November 2018",
+    "expired": false
   },
   {
     "show" : true,
     "title" : "ITIL&reg; Foundation Certificate in IT Service Management",
     "company" : "Axelos Global Best Practice",
-    "issuance" : "October 2018"
+    "issuance" : "October 2018",
+    "expired": false
   },
   {
     "show" : true,
     "title" : "Civil Service Eligibility (PD907)",
     "company" : "Civil Service Commission",
-    "issuance" : "June 2015"
+    "issuance" : "June 2015",
+    "expired": false
   },
   {
     "show" : true,
     "title" : "SAP&reg; Business One",
     "company" : "Fasttrack Solutions Inc. (FastTrack IT Academy)",
-    "issuance" : "March 2014 and October 2013 (Certificate of Completion)"
+    "issuance" : "March 2014 and October 2013 (Certificate of Completion)",
+    "expired": false
   }
 ]

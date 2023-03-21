@@ -28,6 +28,18 @@
     {
       "classification" : 1,
       "show" : true,
+      "rate" : 50,
+      "description" : "NodeJS"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
+      "rate" : 50,
+      "description" : "ReactJS"
+    },
+    {
+      "classification" : 1,
+      "show" : true,
       "rate" : 97,
       "description" : "MySQL"
     },
@@ -62,16 +74,28 @@
       "description" : "WordPress"
     },
     {
-      "classification" : 2,
+      "classification" : 1,
       "show" : true,
-      "rate" : 90,
-      "description" : "Adobe Photoshop"
+      "rate" : 65,
+      "description" : "Shopify"
     },
     {
       "classification" : 2,
       "show" : true,
       "rate" : 98,
       "description" : "Microsoft Office (Word, Excel, and Presentation)"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 98,
+      "description" : "Google Suite (Docs, Sheets, Forms, and Slides)"
+    },
+    {
+      "classification" : 2,
+      "show" : true,
+      "rate" : 90,
+      "description" : "Adobe Photoshop"
     },
     {
       "classification" : 2,
