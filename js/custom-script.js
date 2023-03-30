@@ -117,7 +117,7 @@ $(document).ready(function () {
           '<div class="experience margin-b-30">',
             '<h4 class="text-uppercase text-bold">'+ cert.title +'</h4>',
             '<h5 class="font-yellow text-uppercase text-bold">'+ cert.company +'</h5>',
-            '<h6 class="font-lite-black text-uppercase">'+ (cert.expired ? '<span title="Expired License"><ion-icon name="alert-cir" class="text-danger" style="margin: -2px 0"></ion-icon></span>' : '' ) + ' Issued '+ cert.issuance + '</h6>',
+            '<h6 class="font-lite-black text-uppercase">'+ (cert.expired ? '<span title="Expired License"><ion-icon name="alert-circle" class="text-danger" style="margin: -2px 0"></ion-icon></span>' : '' ) + ' Issued '+ cert.issuance + '</h6>',
           '</div>'
         ].join('');
 

@@ -34,6 +34,7 @@
 				$(this).addClass('current');
 		 
 				var selector = $(this).attr('data-filter');
+        
 				$container.isotope({
 					filter: selector,
 					animationOptions: {
