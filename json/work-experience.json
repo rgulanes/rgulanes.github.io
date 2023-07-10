@@ -3,6 +3,26 @@
     {
       "show" : true,
       "is_current" : false,
+      "position" : "Senior Software Product Engineer",
+      "company" : "enov8tive",
+      "division" : "Product Engineering Team",
+      "duration" : "August 2022 - Present",
+      "duties" : [
+        "Monitored the market and created competitive product analysis.",
+        "Crafted mockups and prototypes that is well translated into a working feature/product.",
+        "Communicated to the team of any issues needed to be troubleshooted to ensure 100% product uptime.",
+        "Established and developed the product roadmap outlining the planned features and enhancements of the products while taking into consideration both the user and organization needs."
+      ],
+      "achievements": [
+        "Created multiple prototypes that were translated into an actual viable feature.",
+        "Utilization of a centralized channel to communicate product issues with 100% resolution rate.",
+        "Assisted in creating templates for the product's email notifications.",
+        "Initiated the development of the knowledge-based documents for the product's feature and product engineering team's processes."
+      ]
+    },
+    {
+      "show" : true,
+      "is_current" : false,
       "position" : "Associate Product Owner",
       "company" : "Cavista Technology - Philippines",
       "division" : "Product Team - Internal Applications",
