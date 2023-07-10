@@ -136,6 +136,18 @@
     {
       "classification" : 3,
       "show" : true,
+      "rate" : 90,
+      "description" : "Product Management"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
+      "rate" : 85,
+      "description" : "Project Scheduling"
+    },
+    {
+      "classification" : 3,
+      "show" : true,
       "rate" : 95,
       "description" : "Issue Tracking"
     },
@@ -156,12 +168,6 @@
       "show" : true,
       "rate" : 95,
       "description" : "Interpersonal Skills"
-    },
-    {
-      "classification" : 3,
-      "show" : true,
-      "rate" : 90,
-      "description" : "Project Scheduling"
     }
   ]
 }
